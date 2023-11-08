@@ -1,0 +1,217 @@
+01) Create Project with maven,
+
+mvn archetype:generate 
+-DgroupId=com.mycompany.app
+-DartifactId=hello-world
+-DarchetypeArtifactId=maven-archetype-quickstart 
+-DarchetypeVersion=1.4
+
+
+02) create the target(.jar)
+
+---> mvn clean install
+
+main(all files(classes))  ----->  target(one file)
+
+
+
+03) delete the target
+
+---> mvn clean
+
+
+04) source code(.java)(main) ---> byte code(.class)(target)
+
+---> mvn compile
+
+
+05) clean the target folder, compile files in test(.java ---> .class), run test cases
+
+---> mvn test
+
+
+06) generate the .jar
+
+=====> mvn clean compile test package
+
+
+
+
+07) run the .jar
+
+mvn -jar target/calculator-1.0-SNAPSHOT.jar
+-->no main manifest attribute, in target/calculator-1.0-SNAPSHOT.jar
+
+mvn -cp target/calculator-1.0-SNAPSHOT.jar com.mycompany.app.App
+
+
+
+
+FIXED ERROR,
+
+<configuration>
+<archive>
+<manifest>
+<mainClass>com.mycompany.app.App</mainClass>
+</manifest>
+</archive>
+</configuration>
+
+add to the 'maven-jar-plugin', After the version
+
+
+
+NOW,
+
+mvn -jar target/calculator-1.0-SNAPSHOT.jar
+
+-------------------------------------------------------------------------------------------------------
+
+--> mvn clean install
+--> mvn -cp target/calculator-1.0-SNAPSHOT.jar com.mycompany.app.App
+
+--------------------------------------------------------------------------------------------
+
+
+=====================================================================================================
+
+
+Testing,   ---------> TestNG(frame-work)
+
+01) Add dependencies to .xml
+
+02) create 'CalculatorTest.java' in Test floder
+
+03) How to write Test Case ???
+
+
+
+
+Test Grouping,
+
+@Test(groups = ".........")
+
+
+
+Priority,
+
+@Test(groups = "BasicOperations", priority = 2)
+
+
+
+if testAddition is workigng, Then execute,
+else testAddition is not working, Then not execute ---> skipped
+
+@Test(groups = "BasicOperations", priority = 2, dependsOnMethods = {"testAddition"})
+
+
+
+
+
+
+===================================================================================================
+
+
+
+Data Provides,
+
+
+
+testng.xml
+
+
+
+
+===========================================================================================================
+
+
+JavaScript Testing ----> Cypress
+
+
+npm install
+
+npm start
+
+
+---> web testing
+
+How to select HTML Elements(HTML queries)
+
+
+01) By Tag Names,
+
+
+02) By Class,
+
+
+03) By Id,
+
+
+04) By Attribute,
+
+
+05) By data-testdi,
+
+
+
+
+Why we select Element ??????
+
+Ex :-
+
+Login,
+    -> invalid username or password
+    -> successfully login
+    -> empty field
+
+
+
+
+npm install cypress --save-dev
+
+package.json ----> scripts
+then, add "cypress:open": "cypress open" into scripts
+
+npm run cypress:open
+
+E2E
+
+continue(you can Specs same as Text Cases)
+
+Now, you can see in vs code, 
+            -> cypress floder
+            -> cypress.config.js
+
+now, you create <e2e> folder in cypress folder
+
+<login_spec.cy.js> create in e2e folder
+
+
+
+
+
+selection HTML element --> data-testid=......
+typing                 --> .type()
+click                  --> .click()
+comparing text content --> .should()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

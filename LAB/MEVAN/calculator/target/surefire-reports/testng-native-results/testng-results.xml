@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-08T16:19:07Z" name="Surefire suite" finished-at="2023-11-08T16:19:07Z" duration-ms="36">
+    <groups>
+      <group name="AdvanceOperations">
+        <method signature="CalculatorTest.testDivision()[pri:0, instance:com.mycompany.app.CalculatorTest@1fc2b765]" name="testDivision" class="com.mycompany.app.CalculatorTest"/>
+        <method signature="CalculatorTest.testMultiplication()[pri:0, instance:com.mycompany.app.CalculatorTest@1fc2b765]" name="testMultiplication" class="com.mycompany.app.CalculatorTest"/>
+        <method signature="CalculatorTest.testModulus()[pri:0, instance:com.mycompany.app.CalculatorTest@1fc2b765]" name="testModulus" class="com.mycompany.app.CalculatorTest"/>
+      </group> <!-- AdvanceOperations -->
+      <group name="BasicOperations">
+        <method signature="CalculatorTest.testAddition()[pri:2, instance:com.mycompany.app.CalculatorTest@1fc2b765]" name="testAddition" class="com.mycompany.app.CalculatorTest"/>
+        <method signature="CalculatorTest.testSubtraction()[pri:1, instance:com.mycompany.app.CalculatorTest@1fc2b765]" name="testSubtraction" class="com.mycompany.app.CalculatorTest"/>
+      </group> <!-- BasicOperations -->
+    </groups>
+    <test started-at="2023-11-08T16:19:07Z" name="Surefire test" finished-at="2023-11-08T16:19:07Z" duration-ms="36">
+      <class name="com.mycompany.app.CalculatorTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.mycompany.app.CalculatorTest@1fc2b765]" started-at="2023-11-08T21:49:07Z" name="beforeClass" finished-at="2023-11-08T21:49:07Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.mycompany.app.CalculatorTest@1fc2b765]" started-at="2023-11-08T21:49:07Z" name="beforeMethod" finished-at="2023-11-08T21:49:07Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testDivision()[pri:0, instance:com.mycompany.app.CalculatorTest@1fc2b765]" started-at="2023-11-08T21:49:07Z" name="testDivision" finished-at="2023-11-08T21:49:07Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivision -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.mycompany.app.CalculatorTest@1fc2b765]" started-at="2023-11-08T21:49:07Z" name="afterMethod" finished-at="2023-11-08T21:49:07Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.mycompany.app.CalculatorTest@1fc2b765]" started-at="2023-11-08T21:49:07Z" name="afterMethod" finished-at="2023-11-08T21:49:07Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="testModulus()[pri:0, instance:com.mycompany.app.CalculatorTest@1fc2b765]" started-at="2023-11-08T21:49:07Z" name="testModulus" finished-at="2023-11-08T21:49:07Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testModulus -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.mycompany.app.CalculatorTest@1fc2b765]" started-at="2023-11-08T21:49:07Z" name="beforeMethod" finished-at="2023-11-08T21:49:07Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.mycompany.app.CalculatorTest@1fc2b765]" started-at="2023-11-08T21:49:07Z" name="beforeMethod" finished-at="2023-11-08T21:49:07Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testAdditionWithDataProvider(int, int, int)[pri:0, instance:com.mycompany.app.CalculatorTest@1fc2b765]" started-at="2023-11-08T21:49:07Z" name="testAdditionWithDataProvider" data-provider="dataForAddition" finished-at="2023-11-08T21:49:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdditionWithDataProvider -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.mycompany.app.CalculatorTest@1fc2b765]" started-at="2023-11-08T21:49:07Z" name="afterMethod" finished-at="2023-11-08T21:49:07Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.mycompany.app.CalculatorTest@1fc2b765]" started-at="2023-11-08T21:49:07Z" name="beforeMethod" finished-at="2023-11-08T21:49:07Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testAdditionWithDataProvider(int, int, int)[pri:0, instance:com.mycompany.app.CalculatorTest@1fc2b765]" started-at="2023-11-08T21:49:07Z" name="testAdditionWithDataProvider" data-provider="dataForAddition" finished-at="2023-11-08T21:49:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdditionWithDataProvider -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.mycompany.app.CalculatorTest@1fc2b765]" started-at="2023-11-08T21:49:07Z" name="afterMethod" finished-at="2023-11-08T21:49:07Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.mycompany.app.CalculatorTest@1fc2b765]" started-at="2023-11-08T21:49:07Z" name="beforeMethod" finished-at="2023-11-08T21:49:07Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.mycompany.app.CalculatorTest@1fc2b765]" started-at="2023-11-08T21:49:07Z" name="afterMethod" finished-at="2023-11-08T21:49:07Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="testAdditionWithDataProvider(int, int, int)[pri:0, instance:com.mycompany.app.CalculatorTest@1fc2b765]" started-at="2023-11-08T21:49:07Z" name="testAdditionWithDataProvider" data-provider="dataForAddition" finished-at="2023-11-08T21:49:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdditionWithDataProvider -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.mycompany.app.CalculatorTest@1fc2b765]" started-at="2023-11-08T21:49:07Z" name="afterMethod" finished-at="2023-11-08T21:49:07Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.mycompany.app.CalculatorTest@1fc2b765]" started-at="2023-11-08T21:49:07Z" name="beforeMethod" finished-at="2023-11-08T21:49:07Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testAddition()[pri:2, instance:com.mycompany.app.CalculatorTest@1fc2b765]" started-at="2023-11-08T21:49:07Z" name="testAddition" finished-at="2023-11-08T21:49:07Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddition -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.mycompany.app.CalculatorTest@1fc2b765]" started-at="2023-11-08T21:49:07Z" name="beforeMethod" finished-at="2023-11-08T21:49:07Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testSubtraction()[pri:1, instance:com.mycompany.app.CalculatorTest@1fc2b765]" started-at="2023-11-08T21:49:07Z" name="testSubtraction" finished-at="2023-11-08T21:49:07Z" depends-on-methods="com.mycompany.app.CalculatorTest.testAddition" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtraction -->
+        <test-method signature="testMultiplication()[pri:0, instance:com.mycompany.app.CalculatorTest@1fc2b765]" started-at="2023-11-08T21:49:07Z" name="testMultiplication" depends-on-groups="BasicOperations" finished-at="2023-11-08T21:49:07Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplication -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.mycompany.app.CalculatorTest@1fc2b765]" started-at="2023-11-08T21:49:07Z" name="beforeMethod" finished-at="2023-11-08T21:49:07Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.mycompany.app.CalculatorTest@1fc2b765]" started-at="2023-11-08T21:49:07Z" name="afterMethod" finished-at="2023-11-08T21:49:07Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.mycompany.app.CalculatorTest@1fc2b765]" started-at="2023-11-08T21:49:07Z" name="afterMethod" finished-at="2023-11-08T21:49:07Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.mycompany.app.CalculatorTest@1fc2b765]" started-at="2023-11-08T21:49:07Z" name="afterClass" finished-at="2023-11-08T21:49:07Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.mycompany.app.CalculatorTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
