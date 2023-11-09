@@ -140,17 +140,27 @@ How to select HTML Elements(HTML queries)
 
 01) By Tag Names,
 
+cy.get('button').click()
+
 
 02) By Class,
+
+cy.get('.btn-submit').first().click()
 
 
 03) By Id,
 
+cy.get('#username').type('admin')
+
 
 04) By Attribute,
 
+cy.get('[type="password"]').first().type('secret')
+
 
 05) By data-testdi,
+
+cy.get('[data-testid=submit-button]').click()
 
 
 
